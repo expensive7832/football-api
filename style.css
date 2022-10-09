@@ -1,0 +1,39 @@
+:root{
+    --activeColor: #f76207
+}
+
+.navbar-nav .active i{
+    background-color: var(--activeColor)
+}
+.navbar-nav .active a{
+    color: var(--activeColor);
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.content .border{
+    border-radius: 10px;
+}
+
+.content .border .top input{
+         
+        color: #fff;
+        cursor: pointer;
+        background-color: transparent;
+        margin: 0em;
+        padding: 1px 2px;
+        border-width: 0!important;
+        border-style: 0!important;
+        border-color: 0!important;
+        outline: 0!important;
+    }
+
+#countrybody div img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+}

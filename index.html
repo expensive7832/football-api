@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./animate.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap-icons.css">
+</head>
+<body class="bg-dark text-white">
+   
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">livescore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Scores <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Favourite</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bet</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+</header>
+
+<hr class="my-2">
+
+
+<main>
+    <section class="tab container">
+      <ul class="nav nav-pills">
+        <li class="nav-link">
+          <button class="btn active">Football</button>
+          <button class="btn btn-info">Hockey</button>
+          <button class="btn btn-info">Basketball</button>
+          <button class="btn btn-info">Tennis</button>
+
+          <input type="date" id="date" class="form-control">
+        </li>
+      </ul>
+    </section>
+
+    <section class="content">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-2">
+          <div class="card bg-dark">
+
+            <div class="card-header d-flex">
+              <i class="fa-solid fa-search"></i>
+            </div>
+      
+            <div class="card-body" id="countrybody">
+            </div>
+
+          </div>
+          </div>
+
+          <div class="col-md-5 border border-white">
+            <h5 class="fw-bold text-center text-warning">Soccer Prediction</h5>
+            <hr>
+            <div id="predictBody"> <!--this is the wrapper for the precition array -->
+             <!--
+               <div class="predict">
+              
+                <div class="d-flex justify-content-between align-items-center">
+                  <p>England</p>
+                  <small>21/02/2022</small>
+                  <small>Premiership</small>
+                </div>
+  
+                <div class="d-flex justify-content-between align-items-center">
+                   <div>
+                    <p>Home Team</p>
+                    <small>1</small>
+                   </div>
+  
+                 
+                    
+                    <div class="d-flex gap-2">
+                      <p class="border bg-primary text-white">20%</p>
+                      <p class="border bg-white text-dark">20%</p>
+                      <p class="border text-dark bg-info">60%</p>
+                    </div>
+                   
+  
+                   <div>
+                    <p>Away team</p>
+                    <small>3</small>
+                   </div>
+                </div>
+                <hr>
+  
+              </div>
+             -->
+            </div>
+          </div>
+
+          <div class="col-md-5">
+
+          </div>
+        </div>
+      </div>
+    </section>
+</main>
+
+<footer>
+
+</footer>
+    
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./scripts.js"></script>
+</body>
+</html>
